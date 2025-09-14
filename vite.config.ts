@@ -36,21 +36,21 @@ export default defineConfig({
       '@radix-ui/react-menubar@1.1.6': '@radix-ui/react-menubar',
       '@radix-ui/react-label@2.1.2': '@radix-ui/react-label',
       '@radix-ui/react-hover-card@1.1.6': '@radix-ui/react-hover-card',
-      '@radix-ui/react-dropdown-menu@2.1.6': '@radix-ui/react-dropdown-menu',
+      '@radix-ui-react-dropdown-menu@2.1.6': '@radix-ui/react-dropdown-menu',
       '@radix-ui/react-dialog@1.1.6': '@radix-ui/react-dialog',
       '@radix-ui/react-context-menu@2.2.6': '@radix-ui/react-context-menu',
       '@radix-ui/react-collapsible@1.1.3': '@radix-ui/react-collapsible',
-      '@radix-ui/react-checkbox@1.1.4': '@radix-ui/react-checkbox',
+      '@radix-ui/react-checkbox@1.1.4': '@radix-ui-react-checkbox',
       '@radix-ui/react-avatar@1.1.3': '@radix-ui/react-avatar',
       '@radix-ui/react-aspect-ratio@1.1.2': '@radix-ui/react-aspect-ratio',
-      '@radix-ui/react-alert-dialog@1.1.6': '@radix-ui/react-alert-dialog',
-      '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
+      '@radix-ui-react-alert-dialog@1.1.6': '@radix-ui-react-alert-dialog',
+      '@radix-ui/react-accordion@1.2.3': '@radix-ui-react-accordion',
       '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
     target: 'esnext',
-    outDir: 'dist', // ✅ changed from build → dist
+    outDir: 'dist',  // << changed from 'build' to 'dist'
   },
   server: {
     port: 3000,
